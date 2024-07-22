@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="p-4"></div>
+    <!-- インライン要素 -->
+     <span class="border border-red-500 p-4 m-4">spanタグの中身</span>
+     <span class="border border-red-500 p-4">インライン要素</span>
+
+     <!-- ブロック要素 -->
+      <p class="border border-blue-500 mt-20">pはパラグラフの略で文章のひと固まりを意味する</p>
+      <p class="border border-blue-500 mt-8 p-8">pはパラグラフの略で文章のひと固まりを意味する</p>
+      <p class="border border-blue-500 mx-12">pはパラグラフの略で文章のひと固まりを意味する</p>
+
+      <!-- ブロックの中にインライン要素 -->
+       <p class="border border-green-500 mt-16">
+        pは文章でよく使われます。
+        <span class="border border-green-500 m-8">spanの中身</span>
+        <span class="border border-green-500 m-12 p-4">spanの中身</span>
+       </p>
+
+       <!-- ブロック要素の中にブロック要素 -->
+        <div class="border border-pink-500 flex justify-around">
+            親ブロック
+            <div class="border border-pink-500">ボックスボックス</div>
+            <div class="border border-pink-500">ボックスボックス</div>
+        </div>
+</body>
+</html>
