@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 横3->横3 -->
+     <div class="flex justify-center mb-12 px-20">
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+       </div>
+    <!-- 縦3->横3 -->
+     <div class="md:flex justify-center mb-12 px-20">
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+       </div>
+    <!-- 縦3->横3 -->
+     <div class="md:flex justify-center mb-12 px-20">
+        <div class="text-center border border-blue-500 py-4 flex-grow md:w-3/12">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow md:w-6/12">あああああ</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow md:w-3/12">あああああ</div>
+       </div>
+     
+    <!-- 縦横2->横4 -->
+     <div class="flex justify-center flex-wrap mb-12 px-4">
+        <div class="text-center border-2 border-red-500 text-black-600 py-2 flex-grow w-1/2 md:w-1/4">フレックスボックス</div>
+        <div class="text-center border-2 border-red-500 text-black-600 py-2 flex-grow w-1/2 md:w-1/4">フレックスボックス</div>
+        <div class="text-center border-2 border-red-500 text-black-600 py-2 flex-grow w-1/2 md:w-1/4">フレックスボックス</div>
+        <div class="text-center border-2 border-red-500 text-black-600 py-2 flex-grow w-1/2 md:w-1/4">フレックスボックス</div>
+     </div>
+</body>
+</html>

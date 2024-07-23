@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 横2->横2 -->
+     <div class="flex justify-center mb-12 w-3/4 mx-auto">
+      <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+      <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+     </div>
+
+    <!-- 縦2->横2 -->
+     <div class="md:flex justify-center mb-12 md:w-3/4 mx-auto">
+      <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+      <div class="text-center border border-blue-500 py-4 flex-grow">あああああ</div>
+     </div>
+
+     <!-- 縦2->横2 幅 5/12. 7/12 -->
+      <div class="md:flex justify-center w-3/4 mb-12 mx-auto">
+       <div class="text-center border border-blue-500 py-4 flex-grow md:w-4/12">あああああ</div>
+       <div class="text-center border border-blue-500 py-4 flex-grow md:w-8/12">あああああ</div>
+      </div>
+
+      <!-- 縦2->横2 -->
+       <div class="md:flex flex-row-reverse justify-center mb-12 md:w-3/4 mx-auto">
+        <div class="text-center border border-blue-500 py-4 flex-grow">AAAAAAAA</div>
+        <div class="text-center border border-blue-500 py-4 flex-grow">BBBBBBBB</div>
+       </div>
+      
+</body>
+</html>

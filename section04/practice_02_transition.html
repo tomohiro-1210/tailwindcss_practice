@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <!-- transition -->
+     <div class="mb-10">
+        <!-- transitionあり -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 transition duration-1000 text-white font-bold px-4 py-2 rounded-md">はい</button>
+         <!-- transitionなし -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 text-white font-bold px-4 py-2 rounded-md">はい</button>
+     </div>
+    <!-- ease-in -->
+     <div class="mb-10">
+        <!-- ease-in -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 transition duration-1000 ease-in text-white font-bold px-4 py-2 rounded-md">はい</button>
+         <!-- ease-out -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 transition duration-1000 ease-out text-white font-bold px-4 py-2 rounded-md">はい</button>
+     </div>
+    <!-- delay -->
+     <div class="mb-10">
+        <!-- delayあり -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 transition duration-1000 delay text-white font-bold px-4 py-2 rounded-md">はい</button>
+         <!-- delayなし -->
+         <button class="bg-red-600 hover:bg-red-400 w-40 md:w-80 transition duration-1000 ease-out text-white font-bold px-4 py-2 rounded-md">はい</button>
+     </div>
+     
+</body>
+</html>
