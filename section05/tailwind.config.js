@@ -4,6 +4,9 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   content: ['./src/**/*.{html,js}', './public/**/*.{html,js}'],
   presets: [],
+  purge:[
+    './public/*.html'
+  ],
   darkMode: 'media', // or 'class'
   theme: {
     accentColor: ({ theme }) => ({
@@ -19,6 +22,9 @@ module.exports = {
         'emerald': colors.emerald,
         'sky': colors.sky,
         'lime': colors.lime,
+      },
+        fontFamily: {
+            "noto": ['Noto Sans JP']
       }
     },
     animation: {
